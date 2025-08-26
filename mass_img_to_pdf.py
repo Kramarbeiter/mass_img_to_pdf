@@ -103,6 +103,6 @@ class PDFConverter:
 
 # Beispielhafte Nutzung
 if __name__ == "__main__":
-    folder_path = "C:\\Users\\luisk\\Downloads\\img_to_pdf"  # Passe den Pfad an
+    folder_path = "C:\\Users\\<username>\\Downloads\\img_to_pdf"  # Passe den Pfad an
     converter = PDFConverter(folder_path)
     converter.convert_images_to_pdf()
